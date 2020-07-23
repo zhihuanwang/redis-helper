@@ -1,0 +1,14 @@
+{
+    "name": "kevin0614/redis-helper",
+    "description": "redis 工具类",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kevin",
+            "email": "drzhong2015@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
