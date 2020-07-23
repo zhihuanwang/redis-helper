@@ -24,7 +24,7 @@ class RedisTool
      */
     public function __construct($ip = 'host.freebd.cn', $port = 6379){
         $this->ip = $ip;
-        $port = $port;
+        $this->port = $port;
         if($this->_redis === null){
             try{
                 $redis		= new \Redis();
