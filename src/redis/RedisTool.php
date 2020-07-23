@@ -27,7 +27,7 @@ class RedisTool
         $port = $port;
         if($this->_redis === null){
             try{
-                $redis		= new Redis();
+                $redis		= new \Redis();
                 $hanedel	= $redis->connect($this->ip, $this->port);
                 if($hanedel){
                     $this->_redis = $redis;
